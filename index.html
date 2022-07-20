@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Home Page-1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        *{
+            text-align: center;
+            
+        }
+        .nav1{
+          height: 50px;
+          width: 100%;
+          background-color: rgb(15, 15, 23);
+          color: white;
+          text-align: center;
+          padding: 10px;
+         position: fixed;
+         top: 0px;
+        
+        }
+        #navbar{
+            color: white;
+        }
+        .nav2{
+            display: flex;
+            height: 65px;
+          width: 100%;
+          background-color: white;
+          position: fixed;
+          top: 60px;
+          
+          
+        }
+        .navbar2{ 
+            display: flex;
+            gap: 50px;
+            margin-top: 25px;
+            margin-left: 260px;
+            font: bold;
+        }
+        
+        #login{
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 8px 20px;
+        }
+        .signup{
+          background-color: green;
+          color: white;
+          border-radius: 10px;
+          border: 0px ;
+          padding: 8px 20px;
+        }
+        h1{
+            font-size: 40px;
+            margin-top: 150px;
+            text-align: center;
+        }
+        #desc{
+           font-size: 20px;
+           width: 40%;
+           line-height: 40px;
+           text-align: center;
+           margin: auto;
+        }
+        #free{
+          
+            margin-top: 30px;
+            padding:16px;
+            text-align: center;
+           
+        }
+        #imagebig{
+            margin-top: 50px;
+        }
+        .logo{
+          width: 75%;
+          display: flex;
+          margin: auto;
+            margin-top: 50px;
+           
+            gap: 50px;
+            background-color: rgb(229, 221, 212);
+            
+        }
+        .heading{
+            font-size: 30px;          
+        }
+        .emailtesting{
+            
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(3,250px); 
+            width: 80%;
+            margin: auto;
+                     
+        }
+        .emailtesting>div{
+            border: 0px solid red;
+            
+        }
+        #setup{
+            display: grid;
+            grid-template-columns:repeat(2,1fr);
+            grid-template-rows: repeat(1,1fr);
+            line-height: 40px;
+           
+        }
+        .developers{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(4,60px);
+            list-style-type: disc;
+            
+        }
+        #crauser{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(3,1fr);
+        }
+        #crauser>div{
+            
+              background-color: bisque;
+        }
+        #trusted{
+            width: 600px;
+            text-align: center;
+            font-size: 30px;
+            margin: auto;
+            margin-top: 60px;
+        }
+       
+
+        
+    </style>
+
+</head>
+<body>
+    <div class="nav1"><p>Stand with Ukraine <img src="image.png" alt="UA">  <a id="navbar" href="https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi">Donate to support</a> </p></div>
+    <div class="nav2"> <img src="https://mailtrap.io/wp-content/uploads/2021/04/mailtrap-new-logo.svg" alt="">
+    <div class="navbar2">
+    <div>Email Testing</div>
+    <div>Email API</div>
+    <div>Pricing</div>
+    <div>Resources</div>
+     <button  id="login">Login</button>
+    <button class="signup">Sign Up</button>
+    </div>
+</div>
+   <h1>Email Sandbox Service</h1>
+   <p id="desc">Capture SMTP traffic from staging and dev environments Automate test flows and scenarios with flexible API Analyze email content for spam score and validate HTML/CSS</p>
+   <button id="free" class="signup">Sign Up For Free</button>
+  <div class="logo"> 
+    <img src="https://mailtrap.io/wp-content/uploads/2021/04/Rails.svg" alt=""> 
+     <img src="https://mailtrap.io/wp-content/uploads/2021/04/Python.svg" alt="">
+     <img src="https://mailtrap.io/wp-content/uploads/2021/04/NET.svg" alt="">
+     <img src="https://mailtrap.io/wp-content/uploads/2021/04/Symfony.svg" alt="">
+     <img src="https://mailtrap.io/wp-content/uploads/2021/04/Laravel.svg" alt="">
+ </div>
+ <div><img id="imagebig" src="https://mailtrap.io/wp-content/uploads/2021/05/img__homepage-964x574.png" alt=""></div>
+ <h1 class="heading">Email testing challenges that Mailtrap solves</h1>
+ <div class="emailtesting">
+ <div><img src="https://mailtrap.io/wp-content/uploads/2021/03/icon4.svg" alt=""><h2>Configure your testing environment in 5 minutes</h2><p>Each Mailtrap account comes with an individual testing environment. Integrate it with your app in just a few clicks.
+</p></div>
+ <div><img src="https://mailtrap.io/wp-content/uploads/2021/03/icon__mail.svg" alt=""><h2>Keep all testing data organized in one place</h2><p>Create individual inboxes for different environments or review servers and group them into relevant projects.</p></div>
+ <div><img src="https://mailtrap.io/wp-content/uploads/2021/01/icon_work.svg" alt=""><h2>Quickly integrate with Mailtrap API</h2><p>Get started quickly with our well-documented API and configure automated testing with unlimited API calls.</p></div>
+ <div><img src="https://mailtrap.io/wp-content/uploads/2021/03/icon2.svg" alt=""><h2>Dig into both the content and source of your emails</h2><p>View messages, check spam scores, validate headers, analyze the HTML support across email clients, and more.</p></div>
+ <div><img src="https://mailtrap.io/wp-content/uploads/2021/01/icon_men.svg" alt=""><h2>Easily share test emails with your team</h2><p>Manage access to your inboxes for colleagues or clients. Send selected test emails to whitelisted real recipients.</p></div>
+ <div><img src="https://mailtrap.io/wp-content/uploads/2021/03/ivon__performance.svg" alt=""><h2>Test your email sending service</h2><p>Send emails to Mailtrap directly from your CRM or email sending service. Simulate sending to multiple recipients.</p></div>
+</div>
+
+<h1>Setup takes less than 5 minutes</h1>
+<p>Mailtrap is compatible with any app or framework that supports SMTP</p>
+<div id="setup"><div><img src="https://mailtrap.io/wp-content/uploads/2021/03/setup-final-480x345.png" alt=""></div>
+<div><h3>1.Select your integration from 20+ code samples or copy SMTP credentials</h3>
+<h3>2.Paste the configuration to your project</h3>
+<h3>3.Run your email sending code</h3>
+<h3>4.Instantly receive a message in your Mailtrap inbox</h3>
+</div>
+</div>
+<h1>How different teams use Mailtrap</h1>
+<img src="https://mailtrap.io/wp-content/uploads/2021/03/img_team.svg" alt="">
+<div class="developers">
+<div><h3>Developers
+</h3></div>
+<div><h3>QA's</h3></div>
+<div><h3>Marketers and managers</h3></div>
+<div><li>Experiment with the email sending functionality</li></div>
+<div><li>Run safe email tests in staging and/or testing environment</li></div>
+<div><li>Smoothly collaborate with development and QA teams</li></div>
+<div><li>Cover code with tests to run automated checks via Mailtrap API</li></div>
+<div><li>Integrate Mailtrap with automated testing tools</li></div>
+<div><li>View test emails in shared inboxes or forward to real recipients</li></div>
+<div><li>Verify different email aspects, debug sending script and HTML template</li></div>
+<div><li>Compare revised emails with their previous versions
+</li></div>
+<div><li>Send emails to Mailtrap inboxes from CRMs and common sending toolsa</li></div>
+</div>
+<button id="free" class="signup">Sign Up For Free</button>
+<h2 class="heading">From our #BestClientEver</h2>
+<div id="crauser">
+    <div>
+        <h2>Rado Georgiev</h2><p>One thing we started using recently is @Mailtrap for our dev & staging environments. We were previously either turning email sending entirely off for staging or running SES + whitelist. Turns out, having a fake SMTP mailbox is great and you can test better with it.
+    </p></div>
+    <div><h2>Doug Black Jr
+    </h2><p>Can we all agree @Mailtrap is a gift to developers everywhere? It just works SO easily out of the box!!!!
+    </p></div>
+    <div><h2>Joshua Anderton
+    </h2><p>Just signed up for @Mailtrap and I’m loving it. So easy to set up. Provides so much peace of mind. Ahh just love it.
+    </p></div>
+    <div><h2>DeveloperMitch</h2><p>After all these years of web development, how have I only JUST started using @Mailtrap. I had heard about it, but never got round to using it. An awesome way of testing emails.
+    </p></div>
+    <div><h2>Alessandro Rodi
+    </h2><p>I love @Mailtrap. It removes all the asshole of configuring email servers in test environments. Great service! Is totally worth your money!
+    </p></div>
+    <div><h2>Mr. Glass
+    </h2><p>Shout out to @Mailtrap, hands down the best way to handle mail sending in local/test environments.
+    </p></div>
+    
+</div>
+<h3 id="trusted" >Trusted by over 900,000 devs, QAs, and managers worldwide</h3>
+<div class="logo">
+    <img src="https://mailtrap.io/wp-content/uploads/2021/04/Adobe.svg" alt="">
+    <img src="https://mailtrap.io/wp-content/uploads/2021/04/Atlassian.svg" alt="">
+    <img src="https://mailtrap.io/wp-content/uploads/2021/04/Calendly.svg" alt="">
+    <img src="https://mailtrap.io/wp-content/uploads/2021/04/Yelp.svg" alt="">
+    <img src="https://mailtrap.io/wp-content/uploads/2021/04/UserTesting.svg" alt="">
+</div>
+</body>
+</html>
