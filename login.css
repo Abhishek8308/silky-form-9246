@@ -1,4 +1,4 @@
-* {
+*{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .nav2{
@@ -18,67 +18,73 @@ gap: 20px;
   padding: 7px 20px;
   color: black;
   text-decoration: none;
-  margin-left: 50%;
+  margin-left: 40%;
 
 }
 .signup{
   height: 20px;
+ 
 background-color: green;
 color: white;
 border-radius: 10px;
 border: 0px ;
 padding: 8px 20px;
 text-decoration: none;
-
 }
-#form {
-  height: 550px;
-  width: 30%;
- margin-left: 100px;
-  /* border: 1px solid red; */
+#form{
+  height: auto;
+  width:30%;
+
+ margin-left: 80px;
   margin-top: 8%;
   justify-content: center;
   padding: 20px 15px 30px 40px;
   border-radius: 15px;
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  
 }
-input {
+input{
   width: 90%;
   height: 40px;
   border: 1px solid grey;
   border-radius: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   padding-left: 10px;
+  
+  
 }
-h2 {
-  text-align: center;
+h2{
+ text-align: center;
 }
-
-h4 {
+h4{
   margin-bottom: 8px;
 }
-
-#submit{
+a{
   display: inline-block;
   width: 92%;
   height: 35px;
-  border: 0px solid rgb(12, 7, 7);
-  background-color: rgb(39, 158, 84);
+  border: 0px solid rgb(244, 241, 241);
+  background-color: rgb(224, 220, 220);
   border-radius: 10px;
   margin-top: 30px;
   font-weight: bolder;
   font-size: 15px;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 15px ;
   text-decoration: none;
+  
+}
+#submit{
+  background-color: rgb(64, 133, 64);
   color: white;
+  font-size: 20px;
 
 }
-.parent{
+.child{
   display: flex;
-  gap: 200px;  
+  gap: 200px;
 }
 .img{
- text-align: center;
+  width: 300px;
   margin-top: 100px;
+  text-align: center;
 }

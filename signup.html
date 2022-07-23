@@ -1,29 +1,37 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>signup Page</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <title>signup</title>
     <link rel="stylesheet" href="signup.css">
-    
+   
 </head>
-<body>
-    <div class="first">
-        <div>
-    <h1>Create Free Forever Account</h1>
-    <button> <input type="text">Use Google Account </button>
-    <button> <input type="text">Use Github Account </button>
-    <button> <input type="text">Use office 365 Account </button>
-    <h2>OR</h2>
-    <button>Signup with your free email</button>
-    <p>By creating a Mailtrap account, you agree to our Terms of Service and Privacy Policy.We'll occasionally send you account related emails.</p>
-    </div>
-    <div>
-    <img src="https://assets.mailtrap.io/packs/assets/landing/signup-29d04f096f43afe622ed.svg" alt="">
-    <img src="https://assets.mailtrap.io/packs/assets/landing/no-cc-f64815040928cb2cd45e.svg" alt=""><h3>No credit card needed</h3>
+
+<body> <div class="nav2"> <img src="https://mailtrap.io/wp-content/uploads/2021/04/mailtrap-new-logo.svg" alt="">
+   
+    <a id="login" href="login.html">Login</a>
+    <a class="signup" href="signup.html">Sign Up</a>
+    
+</div>
+    <div class="parent">
+      <form action="" id="form" >
+     <h2>Create Free Forever Account</h2>
+     <h4>Use google account</h4>
+     <input type="text"  placeholder="Enter google account" id="google" >
+     <h4>Use github account</h4>
+     <input type="text" placeholder="Enter github account" id="github">
+     <h4>Create Password</h4>
+     <input type="password" placeholder="Enter Password" id="password">
+     <a  href="login.html"id="submit">SIGN UP</a>
+     <p>By creating a Mailtrap account, you agree to our <a href="https://mailtrap.io/terms"> Terms of Service</a> and <a href="https://mailtrap.io/privacy"> Privacy Policy</a>.We'll occasionally send you account related emails.</p>
+    </form>
+     <div class="img">
+      <img src="https://assets.mailtrap.io/packs/assets/landing/signup-29d04f096f43afe622ed.svg" alt="">
+      <h4> <img src="https://assets.mailtrap.io/packs/assets/landing/no-cc-f64815040928cb2cd45e.svg" alt=""> No credit card needed</h4>
+      <h4> <img src="https://assets.mailtrap.io/packs/assets/landing/no-contract-6c7fcc24afc64e708f1d.svg" alt=""> No contract needed</h4>
+   </div>
 </div>
 </body>
+<script src="signup.js"></script>
 </html>
